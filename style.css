@@ -1,0 +1,160 @@
+*{box-sizing: border-box;}
+
+
+body{font-family: source sans pro,sans-serif;
+    background-color: #fff;
+    margin: 0%;
+    padding: 0%;
+    color: #62898a;}
+
+    main{margin-bottom: 60px;}
+
+.topo-div{max-width: 1024px;
+margin: 0 auto;}
+
+.topo{background-color:blue;
+width: 100%;
+height: 60px;}
+
+.imagem-topo img{width: 100px; height: 50px;}
+
+.topo-div{display: flex;
+align-items: center;
+justify-content: space-around;
+width: 100%;
+min-height: 60px;
+padding: 0 10px;
+margin:0 auto;}
+
+a {text-decoration: none;
+color:#fff}
+
+a:hover{color: #004b4c;}
+
+.link-topo{margin-right: 100px; }
+
+.link-topo a{padding: 10px;}
+
+.imagem-titulo{background-image: url('../projeto\ clinica/assets/recepcao.png');
+height: 500px;
+background-size: cover;
+width: 100%;
+display: flex;
+align-items:center;
+justify-content:space-around;
+flex-wrap: wrap;}
+
+.titulo{font-size: 20px;
+    color:white;}
+
+.titulo h1{font-size: 30px;}
+
+#sobre{max-width: 1024px;
+display: block;
+margin: 0 auto;}
+
+.paragrafo-meio h3{
+font-size: 30px;
+margin-left:400px;
+margin-top: 40px}
+
+.paragrafo-meio p{margin-left: 100px;
+font-size: 20px;}
+
+.lista{display: flex;
+justify-content: center;
+align-items: center;}
+
+.tam-lista{max-width: 400px;}
+
+.lista-imagem{max-width: 1024px;
+display: flex;}
+
+.antes-3img{
+max-width: 1024px;;}
+
+#especialidades{
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.antes-3img h3{margin-left: 220px;}
+
+.imagem-espe{display: flex;
+max-width: 1024px;
+justify-content: space-around;}
+
+.ajuste-imagens{
+max-width: 1024px;
+margin-left: 180px;
+margin-bottom: 30px;}
+
+.legenda{max-width: 280px;
+background-color: #fff;
+box-shadow: inset;}
+
+.legenda figcaption{margin-left: 100px;}
+
+figure{box-shadow: 5px 5px 10px black;}
+
+.box-contato{
+max-width: 1024px;
+display: flex;
+align-items: center;
+height: 300px;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin-left: 200px;}
+
+.link-proxima-pagina{background-color: blue;
+width: 200px;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 580px;
+border-radius: 5px;}
+
+.subtitulo-fim{width: 100%;}
+
+.box-contato{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;}
+
+.iframe{margin-left: 250px;
+margin-bottom: 30px;}
+
+
+.rodape{width:100%;
+    margin: 0 auto;
+    text-align: center;
+background-color: blue;
+color: aliceblue;
+}
+
+.rodape img{width: 100px;
+height: 50px;}
+
+
+@media (max-width:700px){
+    .topo-div {display: flex;
+        flex-direction: column;
+    background-color: #fff;}
+
+    .imagem-topo{margin 10px 0;}
+
+    .link-topo{border-top: 1px solid;justify-content: space-around;}
+}
+
+@media (max-width: 768px) {
+    .imagem-titulo { height: 300px;}
+    .lista-imagem img { display: none;}
+    .ajuste-imagens {justify-content: center;}
+    .ajuste-imagens{width: calc(100% / 2 - 40px);}
+  }
+
+  @media (max-width:1024px){
+      .imagem-titulo{height: 400px;}
+  }

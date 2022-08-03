@@ -1,0 +1,137 @@
+*{box-sizing: border-box;}
+
+
+body{font-family: source sans pro,sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.topo{display: flex;
+justify-content: center;
+position: fixed;
+width: 100%;}
+
+.topo-div{width:100%;
+display: flex;
+justify-content: space-around;
+background-color: blue;
+align-items: center;}
+
+.imagem-topo img{ width: 100px;
+height: 60px;}
+
+.link-topo a{text-decoration: none;
+color: white;
+padding-left: 15px;
+}
+
+.box-inicio{display: flex;
+justify-content: center;
+}
+
+.box-prin-ini{ max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-top: 100px;
+}
+
+.links-pricipais a{color:blue;
+    padding-right: 30px;
+    text-decoration: underline black;
+    }
+    a:hover{color: #000;}
+    
+
+.box-titulo-ini{display: flex;
+justify-content: center;
+color: #000;
+height: 200px;
+margin-top: 30px;
+background-image: url(../projeto\ clinica/assets/logo.png);
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;}
+
+
+.espe-par-ti{display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: #000;
+border-top: 2px dotted black;
+margin-top: 30px;}
+
+.img-tabela img{width: 250px;
+height: 200px;}
+
+.img-tabela{display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;}
+
+.tabela tbody tr:nth-of-type(2n+1) {
+    background-color: #cdcdcd;
+    border: 1px solid #f1f1f1;
+  }
+
+
+  .tabela th{background-color: blue;
+color: #fff;}
+
+.tabela{height: 200px;
+display: flex;
+align-content: stretch;}
+
+.tabela tr{color: #000;}
+
+.rodape{width:100%;
+    margin: 0 auto;
+    text-align: center;
+color: aliceblue;
+}
+
+footer{background-color: blue;
+margin-top: 100px;
+position: ;}
+
+.rodape img{width: 100px;
+height: 50px;
+}
+
+
+@media(max-width:425px){
+
+    .topo-div{display: flex;
+    align-items: center;
+justify-content: center;
+flex-direction: column;}
+
+.links-pricipais{max-width: 359px;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+.links-pricipais a {padding: 0px;
+font-size: 15px;}
+
+.box-titulo-ini {display:none}
+
+.img-tabela img{display: none;}
+
+.espe-par-ti p{margin-left: 9px;}
+}
+
+@media(max-width:768px){
+    .links-pricipais{max-width: 767px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+    .links-pricipais a {padding: 1px;
+        font-size: 15px;}
+
+    .img-tabela img{display: none;}
+    .espe-par-ti p{margin-left: 10px;}
+}
